@@ -17,13 +17,12 @@ public class ArrayTest {
         int[] tab1 = new int[w];
 
 
-
         Random random = new Random();
 
         for (int i = 0; i < tab1.length; i++) {
 
-            tab1[i]=i+1;
-            //tab1[i] = random.nextInt(50);
+            //tab1[i]=i+1;
+            tab1[i] = random.nextInt(50);
             System.out.println(tab1[i]);
         }
 
@@ -32,17 +31,17 @@ public class ArrayTest {
         int[] tab2 = new int[k];
         for (int i = 0; i < tab2.length; i++) {
 
-            tab2[i]=i+1;
-            //tab2[i] = random.nextInt(50);
+            //tab2[i]=i+1;
+            tab2[i] = random.nextInt(50);
             System.out.println(tab2[i]);
         }
 
-            ArrayComparator arrayComparator = new ArrayComparator();
-            arrayComparator.compare(tab1, tab2);
-        System.out.println(arrayComparator.compare(tab1,tab2));
-
-        }
+        ArrayComparator arrayComparator = new ArrayComparator();
+        System.out.println(arrayComparator.compare(tab1, tab2));
 
 
     }
+
+
+}
 
