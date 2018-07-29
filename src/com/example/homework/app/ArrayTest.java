@@ -15,24 +15,28 @@ public class ArrayTest {
         System.out.println("Podaj ilość elementów w tablicy 1: ");
         int w = scanner.nextInt();
         int[] tab1 = new int[w];
+        //int [] tab1 = {1, 3, 3};
+
 
 
         Random random = new Random();
 
         for (int i = 0; i < tab1.length; i++) {
 
-            //tab1[i]=i+1;
-            tab1[i] = random.nextInt(50);
+            tab1[i]=i+1;
+            //tab1[i] = random.nextInt(50);
             System.out.println(tab1[i]);
         }
 
         System.out.println("Podaj ilość elementów w tablicy 2: ");
         int k = scanner.nextInt();
         int[] tab2 = new int[k];
+        //int[] tab2 = {1,2,1};
+
         for (int i = 0; i < tab2.length; i++) {
 
-            //tab2[i]=i+1;
-            tab2[i] = random.nextInt(50);
+            tab2[i]=i+1;
+            //tab2[i] = random.nextInt(50);
             System.out.println(tab2[i]);
         }
 
